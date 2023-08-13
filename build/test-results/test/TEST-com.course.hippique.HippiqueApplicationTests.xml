@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.course.hippique.HippiqueApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-13T16:26:43" hostname="Simon-sous-debian" time="0.446">
+<testsuite name="com.course.hippique.HippiqueApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-13T16:46:43" hostname="Simon-sous-debian" time="0.456">
   <properties/>
-  <testcase name="contextLoads()" classname="com.course.hippique.HippiqueApplicationTests" time="0.446"/>
+  <testcase name="contextLoads()" classname="com.course.hippique.HippiqueApplicationTests" time="0.456"/>
   <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-18:26:38.307 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.course.hippique.HippiqueApplicationTests]: HippiqueApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:26:38.395 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.course.hippique.HippiqueApplication for test class com.course.hippique.HippiqueApplicationTests
+18:46:39.705 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.course.hippique.HippiqueApplicationTests]: HippiqueApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:46:39.790 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.course.hippique.HippiqueApplication for test class com.course.hippique.HippiqueApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,25 +14,26 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.2)
 
-2023-08-13T18:26:38.709+02:00  INFO 23174 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : Starting HippiqueApplicationTests using Java 17.0.7 with PID 23174 (started by simsim in /media/simsim/cd8a8f02-df25-4ce3-9527-0155114d32f1/Simon/Perso/Dev/Hippique/hippique)
-2023-08-13T18:26:38.710+02:00  INFO 23174 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2023-08-13T18:26:39.269+02:00  INFO 23174 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-08-13T18:26:39.319+02:00  INFO 23174 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
-2023-08-13T18:26:39.729+02:00  INFO 23174 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-08-13T18:26:39.764+02:00  INFO 23174 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
-2023-08-13T18:26:39.766+02:00  INFO 23174 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-08-13T18:26:39.867+02:00  INFO 23174 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-13T18:26:39.964+02:00  INFO 23174 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-08-13T18:26:39.977+02:00  INFO 23174 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-08-13T18:26:40.299+02:00  INFO 23174 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 943a0ed8-cf29-44be-834d-75adbe871082
-2023-08-13T18:26:40.301+02:00  INFO 23174 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-08-13T18:26:40.511+02:00  INFO 23174 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-08-13T18:26:41.096+02:00  INFO 23174 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-08-13T18:26:42.124+02:00  INFO 23174 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-08-13T18:26:42.665+02:00  WARN 23174 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-13T18:46:40.103+02:00  INFO 24702 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : Starting HippiqueApplicationTests using Java 17.0.7 with PID 24702 (started by simsim in /media/simsim/cd8a8f02-df25-4ce3-9527-0155114d32f1/Simon/Perso/Dev/Hippique/hippique)
+2023-08-13T18:46:40.105+02:00  INFO 24702 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-08-13T18:46:40.593+02:00  INFO 24702 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-13T18:46:40.645+02:00  INFO 24702 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces.
+2023-08-13T18:46:41.054+02:00  INFO 24702 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-13T18:46:41.090+02:00  INFO 24702 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-13T18:46:41.092+02:00  INFO 24702 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-13T18:46:41.194+02:00  INFO 24702 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-13T18:46:41.295+02:00  INFO 24702 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-13T18:46:41.311+02:00  INFO 24702 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-13T18:46:41.553+02:00  INFO 24702 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: cefb71a2-4bc0-4b06-b290-e8ea776bd157
+2023-08-13T18:46:41.555+02:00  INFO 24702 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-13T18:46:41.776+02:00  INFO 24702 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-13T18:46:42.294+02:00  INFO 24702 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-13T18:46:42.500+02:00  INFO 24702 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-13T18:46:43.008+02:00  WARN 24702 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Start scrapper version: 1.0.0
 ?[1m12-08-2023?[0m
-2023-08-13T18:26:43.014+02:00  INFO 23174 --- [   scheduling-1] c.course.hippique.collectors.Main_CLR    : ?[1m12-08-2023?[0m
-2023-08-13T18:26:43.018+02:00  INFO 23174 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : Started HippiqueApplicationTests in 4.51 seconds (process running for 5.516)
+2023-08-13T18:46:43.336+02:00  INFO 24702 --- [   scheduling-1] c.course.hippique.collectors.Main_CLR    : ?[1m12-08-2023?[0m
+2023-08-13T18:46:43.340+02:00  INFO 24702 --- [    Test worker] c.c.hippique.HippiqueApplicationTests    : Started HippiqueApplicationTests in 3.435 seconds (process running for 4.26)
 ?[1mR?[32m1?[0m?[1m C?[32m1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
